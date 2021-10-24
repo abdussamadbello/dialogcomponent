@@ -8,7 +8,7 @@ export default class DialogBox {
 
   notification(button){
    let clickedButton = (button==this.confirm)?this.confirm:this.cancel
-    return `you just clicked ${clickedButton}`
+    return `You just clicked ${clickedButton}`
   }
 
   
